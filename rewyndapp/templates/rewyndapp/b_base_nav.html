@@ -1,0 +1,27 @@
+{% extends "rewyndapp/a_base.html" %}
+{% block head %} {{ block.super }}
+{% load static %}
+<style>
+body {
+  background-image: linear-gradient(to top, #efefef 0%, #f7f7f7 75%, #ffffff 100%);
+}
+
+
+</style>
+ {% endblock head %}
+{% block header %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-0 justify-content-start">
+  <a class="navbar-brand mr-2" href="{% url 'rewyndapp:index' %}">RewyndApp</a>
+  <a class="nav-item nav-link px-1 text-secondary" href="{% url 'rewyndapp:programs_page' %}">Programs</a>
+  <a class="nav-item nav-link px-1 text-secondary mr-auto" href="{% url 'rewyndapp:about_page' %}">About</a>
+</nav>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb mb-2 py-2" style="font-size:0.9rem">
+    {% block breadcrumb %}{% endblock breadcrumb %}
+  </ol>
+</nav>
+{% endblock header %}
+{% block title %} {{ block.super }} {% endblock title %}
+{% block h1 %} {{ block.super }} {% endblock h1 %}
+{% block content %} {{ block.super }} {% endblock content %}
+{% block scripts %} {{ block.super }} {% endblock scripts %}

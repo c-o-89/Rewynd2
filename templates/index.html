@@ -1,0 +1,15 @@
+{% load render_bundle from webpack_loader %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    {% load static %}
+    <link rel="shortcut icon" type="image/png" href="{% static 'rewyndapp/images/favicon.png' %}">
+    <title>RewyndApp</title>
+  </head>
+  <body>
+    <div id="root">Loading</div>
+      {% render_bundle 'main' %}
+  </body>
+</html>
