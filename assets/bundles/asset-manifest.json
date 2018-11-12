@@ -1,0 +1,9 @@
+{
+  "main.css": "/static/bundles/css/main.5ad7e58a.css",
+  "main.js": "/static/bundles/js/main.c29cf47b.js",
+  "main.js.map": "/static/bundles/js/main.c29cf47b.js.map",
+  "css/main.5ad7e58a.css.map": "/static/bundles/css/main.5ad7e58a.css.map",
+  "index.html": "/static/bundles/index.html",
+  "precache-manifest.d36b12622fda09cf0a72c337b1c47946.js": "/static/bundles/precache-manifest.d36b12622fda09cf0a72c337b1c47946.js",
+  "service-worker.js": "/static/bundles/service-worker.js"
+}

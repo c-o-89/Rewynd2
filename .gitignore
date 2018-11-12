@@ -1,16 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Text backup files
-/ignored
-
-# dependencies
-frontend/node_modules
-
-# testing
-frontend/coverage
-
-# production
-/assets
+frontend
+webpack-stats.dev.json
 
 # misc
 .DS_Store
