@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/?source=pwa",
+  "start_url": "/react/?source=pwa",
   "background_color": "#343a40",
   "display": "standalone",
   "scope": "/",
