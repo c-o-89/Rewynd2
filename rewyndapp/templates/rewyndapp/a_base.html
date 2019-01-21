@@ -1,26 +1,10 @@
 <!doctype html>
 <html class="h-100" lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127061374-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-127061374-1');
-    </script>
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimal-ui">
-
-    <!-- Other meta tags -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
+    {% load static %}
+    {% include "rewyndapp/coretags.html" %}
 
     <!-- Bootstrap CSS -->
-    {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'rewyndapp/bootstrap.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'rewyndapp/custom.css' %}">
     <link rel="shortcut icon" type="image/png" href="{% static 'rewyndapp/images/favicon.png' %}">

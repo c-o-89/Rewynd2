@@ -1,0 +1,21 @@
+{
+  "short_name": "Rewynd",
+  "name": "Rewynd2",
+  "icons": [
+    {
+      "src": "/static/rewyndapp/images/Rewynd-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/static/rewyndapp/images/Rewynd-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/react/?source=pwa",
+  "background_color": "#343a40",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#343a40"
+}
